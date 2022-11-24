@@ -18,7 +18,7 @@ metro_all = pd.read_csv("./data/서울시 지하철 호선별 역별 시간대�
 
 # print(len(list(set(metro_all['지하철역']))))
 
-# 2021년 6월 승하차 인원만 추출
+# 2022년 10월 승하차 인원만 추출
 
 metro_oct = metro_all[metro_all['사용월'] == 202210]
 metro_oct = metro_oct.drop(columns={'작업일자'})
